@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+@font-face {
+	font-family: 'Acumin Pro';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Acumin Pro'), url('Acumin-RPro.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Acumin Pro Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Acumin Pro Italic'), url('Acumin-ItPro.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Acumin Pro Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Acumin Pro Bold'), url('Acumin-BdPro.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Monument Extended Ultrabold';
+	src: url('MonumentExtended-Ultrabold.otf') format('opentype');
+}
+
+main {
+	height: 100%;
+	width: 100%;
+	background-color: #f8f8f8;
+	position: relative;
+	padding-top: 0.1px;
+	font-family: Acumin Pro, sans-serif;
+}
+
+nav {
+	height: 75px;
+	width: 100%;
+	margin-top: 20px;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	display: flex;
+}
+
+#logo {
+	width: 27%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#logo h1 {
+	font-size: 1.7rem;
+	font-family: 'Monument Extended Ultrabold';
+	letter-spacing: -0.8px;
+	line-height: 1rem;
+}
+
+#logo h1 sup {
+	font-family: 'Acumin Pro';
+	font-size: 1rem;
+	margin-left: 0.2rem;
+}
+
+#logo h6 {
+	margin-top: 0.1rem;
+	margin-left: 1.5rem;
+	text-wrap: nowrap;
+}
+
+nav h2 {
+	height: 100%;
+	width: calc(73% / 4);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+}
+
+nav h2:not(:last-child) {
+	border-right: 2px solid #000;
+}
+
+nav h2:nth-child(4) {
+	width: calc(73% / 4 * 1.5);
+}
+
+nav h2:last-child {
+	width: calc(73% / 4 / 1.5);
+}
+
+#center {
+	height: calc(100% - 95px);
+	width: 100%;
+	display: flex;
+	position: relative;
+	padding: 2vw 6vw;
+}
+
+#content {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+video {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	z-index: 1;
+}
+
+#overlay {
+	height: 40%;
+	width: 100%;
+	color: white;
+	position: absolute;
+	bottom: 5%;
+	display: flex;
+	flex-direction: column;
+	z-index: 2;
+	padding: 0 4vw;
+	gap: 0.5rem;
+}
+
+#overlay-top {
+	height: 60%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#overlay-top h1 {
+	width: 30%;
+	font-size: 2.2rem;
+	font-family: 'Monument Extended Ultrabold';
+}
+
+#overlay-circle {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	border: 2px solid gray;
+	overflow: hidden;
+}
+
+#overlay-circle h4 {
+	font-size: 0.9rem;
+}
+
+#overlay-bottom {
+	height: 40%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#overlay-bottom h4 {
+	font-size: 0.8rem;
+	font-family: 'Acumin Pro';
+}
+
+#overlay-bottom img {
+	height: 1.5rem;
+	width: 2.4rem;
+}
