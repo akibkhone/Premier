@@ -64,7 +64,7 @@ nav {
 }
 
 #logo h1 {
-	font-size: 2.2vw;
+	font-size: 2.2vmax;
 	font-family: 'Monument Extended Ultrabold';
 	letter-spacing: -0.8px;
 	line-height: 1rem;
@@ -72,15 +72,15 @@ nav {
 
 #logo h1 sup {
 	font-family: 'Acumin Pro';
-	font-size: 1.4vw;
+	font-size: 1.4vmax;
 	margin-left: 0.2rem;
 }
 
 #logo h6 {
 	margin-top: 0.1rem;
-	margin-right: -2.5vw;
+	margin-right: -2.5vmax;
 	text-wrap: nowrap;
-	font-size: 0.7vw;
+	font-size: 0.7vmax;
 }
 
 nav h2 {
@@ -89,7 +89,7 @@ nav h2 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 1.2vw;
+	font-size: 1.2vmax;
 }
 
 nav h2:not(:last-child) {
@@ -104,12 +104,16 @@ nav h2:last-child {
 	width: calc(73% / 4 / 1.5);
 }
 
+nav .ri-menu-3-line {
+	display: none;
+}
+
 #center {
 	height: calc(100% - 95px);
 	width: 100%;
 	display: flex;
 	position: relative;
-	padding: 2vw 5vw;
+	padding: 2vmax 5vmax;
 }
 
 #content {
@@ -134,7 +138,7 @@ video {
 	display: flex;
 	flex-direction: column;
 	z-index: 2;
-	padding: 0 4vw;
+	padding: 0 4vmax;
 	gap: 0.5rem;
 }
 
@@ -148,7 +152,7 @@ video {
 
 #overlay-top h1 {
 	width: 30%;
-	font-size: 2.4vw;
+	font-size: 2.4vmax;
 	letter-spacing: 2px;
 	font-family: 'Monument Extended Ultrabold';
 }
@@ -166,7 +170,7 @@ video {
 }
 
 #overlay-circle h4 {
-	font-size: 1vw;
+	font-size: 1vmax;
 }
 
 #overlay-bottom {
@@ -178,13 +182,13 @@ video {
 }
 
 #overlay-bottom h4 {
-	font-size: 1vw;
+	font-size: 1vmax;
 	font-family: 'Acumin Pro';
 }
 
 #overlay-bottom img {
-	height: 1.5vw;
-	width: 2.4vw;
+	height: 1.5vmax;
+	width: 2.4vmax;
 }
 
 #scroll {
@@ -231,7 +235,7 @@ video {
 }
 
 #model-profile h6 {
-	font-size: 0.8vw;
+	font-size: 0.8vmax;
 }
 
 @keyframes scroll {
@@ -245,26 +249,26 @@ video {
 }
 
 #alphabets {
-	height: 7vw;
+	height: 7vmax;
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	padding: 0 5vw;
+	padding: 0 5vmax;
 	font-family: 'Acumin Pro Italic';
 	border-top: 2px solid #000;
 	border-bottom: 2px solid #000;
 }
 
 #alphabets h4 {
-	font-size: 1.5vw;
+	font-size: 1.5vmax;
 	text-decoration: underline;
-	margin-right: 1vw;
+	margin-right: 1vmax;
 	letter-spacing: 3px;
 }
 
 #alphabets h5 {
-	font-size: 1.5vw;
+	font-size: 1.5vmax;
 	color: #5c5c5c;
 	cursor: pointer;
 	transition: all ease 0.3s;
@@ -285,16 +289,16 @@ video {
 }
 
 #page1 {
-	margin-top: 4vw;
+	margin-top: 4vmax;
 	height: 100%;
 	width: 100%;
-	padding: 0 5vw;
+	padding: 0 5vmax;
 	display: flex;
 }
 
 #page1-left {
 	width: 60%;
-	padding-right: 2vw;
+	padding-right: 2vmax;
 }
 
 #page1-left img {
@@ -305,14 +309,14 @@ video {
 }
 
 #page1-left h1 {
-	font-size: 2vw;
-	padding-top: 1vw;
+	font-size: 2vmax;
+	padding-top: 1vmax;
 	font-family: 'Monument Extended Ultrabold';
 }
 
 #page1-right {
 	height: 90%;
-	padding-left: 2vw;
+	padding-left: 2vmax;
 	width: 40%;
 	display: flex;
 	flex-direction: column;
@@ -328,15 +332,15 @@ video {
 #page1-right-bottom {
 	display: flex;
 	align-items: start;
-	gap: 2vw;
-	padding-top: 2vw;
+	gap: 2vmax;
+	padding-top: 2vmax;
 }
 
 #page2 {
-	margin-top: 4vw;
+	margin-top: 4vmax;
 	height: 80%;
 	width: 100%;
-	padding: 2vw 5vw;
+	padding: 2vmax 5vmax;
 	display: flex;
 }
 
@@ -346,7 +350,7 @@ video {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	padding: 0 2vw 0 4vw;
+	padding: 0 2vmax 0 4vmax;
 	justify-content: space-around;
 	align-items: center;
 	position: relative;
@@ -359,7 +363,7 @@ video {
 }
 
 #page2-left h4 {
-	font-size: 1.5vw;
+	font-size: 1.5vmax;
 	align-self: flex-end;
 }
 
@@ -380,7 +384,7 @@ video {
 #page3 {
 	width: 100%;
 	height: 100%;
-	padding: 2vw 5vw;
+	padding: 2vmax 5vmax;
 }
 
 #page3 img {
@@ -393,7 +397,7 @@ video {
 #page4 {
 	height: 100%;
 	width: 100%;
-	padding: 2vw 5vw;
+	padding: 2vmax 5vmax;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -401,7 +405,7 @@ video {
 
 #page4 h1 {
 	font-family: 'Monument Extended Ultrabold';
-	font-size: 3vw;
+	font-size: 3vmax;
 	height: 15%;
 }
 
@@ -416,20 +420,26 @@ video {
 	display: grid;
 	grid-template-columns: 20% 30% 50%;
 	align-items: center;
-	border-top: 2px solid;
-	padding: 1vw;
+	border-bottom: 2px solid black;
+	padding: 1vmax;
+	cursor: pointer;
 }
 
 .update h4 {
-	font-size: 1vw;
+	font-size: 1vmax;
+	width: 6%;
 }
 
 .update img {
-	height: 7vw;
-	width: 7vw;
+	height: 7vmax;
+	width: 7vmax;
 	object-fit: cover;
 	object-position: top;
 	border-radius: 50%;
+}
+
+.update:hover {
+	background-color: rgb(227, 221, 221);
 }
 
 .update-left {
@@ -439,21 +449,21 @@ video {
 }
 
 .update-left h2 {
-	font-size: 2vw;
+	font-size: 2vmax;
 }
 
 .update-left h6 {
-	font-size: 1vw;
+	font-size: 1vmax;
 }
 
-.update:nth-child(:last-child) {
-	border-bottom: 2px solid;
+.update:nth-child(1) {
+	border-top: 2px solid black;
 }
 
 #page5 {
 	height: 100%;
 	width: 100%;
-	padding: 5vw;
+	padding: 5vmax;
 	display: flex;
 	justify-content: space-between;
 }
@@ -480,16 +490,16 @@ video {
 
 #page5-right h2 {
 	font-family: 'Monument Extended Ultrabold';
-	font-size: 2.5vw;
+	font-size: 2.5vmax;
 }
 
 #page5-right h4 {
 	width: 50%;
-	font-size: 1.4vw;
+	font-size: 1.4vmax;
 }
 
 #page5-right p {
-	font-size: 1.1vw;
+	font-size: 1.1vmax;
 }
 
 #page5-right-bottom {
@@ -506,13 +516,20 @@ video {
 	object-position: top;
 }
 
-#scroll {
-	margin-top: 2vw;
-	height: 15vh;
+#scroll2 {
+	margin-top: 2vmax;
+	width: auto;
+	white-space: nowrap;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#scroll2 #scroll-container {
+	width: 82%;
 }
 
 .scroll-text {
-	font-size: 5vw;
+	font-size: 5vmax;
 	font-family: 'Monument Extended Ultrabold';
 	color: transparent;
 	-webkit-text-stroke: 2px rgb(101, 94, 94);
@@ -523,7 +540,7 @@ video {
 #page6 {
 	height: 80%;
 	width: 100%;
-	padding: 5vw;
+	padding: 5vmax;
 	display: flex;
 	justify-content: space-between;
 }
@@ -531,7 +548,7 @@ video {
 #page6 h1 {
 	width: 10%;
 	font-family: 'Monument Extended Ultrabold';
-	font-size: 3vw;
+	font-size: 3vmax;
 }
 
 .page6-card {
@@ -543,13 +560,13 @@ video {
 }
 
 .page6-card h4 {
-	font-size: 1.2vw;
-	line-height: 1.8vw;
+	font-size: 1.2vmax;
+	line-height: 1.8vmax;
 }
 
 .page6-card span {
 	border: 1px solid;
-	padding: 0.2vw 0.5vw;
+	padding: 0.2vmax 0.5vmax;
 	border-radius: 50%;
 }
 
@@ -561,7 +578,7 @@ video {
 }
 
 footer {
-	height: 15vw;
+	height: 15vmax;
 	width: 100%;
 	margin: 20px 0;
 	border-top: 2px solid #000;
@@ -575,8 +592,8 @@ footer h2 {
 	display: flex;
 	align-items: start;
 	justify-content: center;
-	font-size: 1.2vw;
-	padding-top: 2vw;
+	font-size: 1.2vmax;
+	padding-top: 2vmax;
 }
 
 footer h2:not(:last-child) {
@@ -584,7 +601,7 @@ footer h2:not(:last-child) {
 }
 
 .footer-logo {
-	padding-top: 2vw;
+	padding-top: 2vmax;
 	align-self: start;
 }
 
@@ -602,8 +619,8 @@ footer h2:not(:last-child) {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	font-size: 1.5vw;
-	padding-left: 5vw;
+	font-size: 1.5vmax;
+	padding-left: 5vmax;
 }
 
 #footer-right-bottom {
@@ -613,14 +630,285 @@ footer h2:not(:last-child) {
 	flex-direction: column;
 	justify-content: center;
 	border-top: 2px solid #000;
-	padding-left: 5vw;
-	gap: 0.5vw;
+	padding-left: 5vmax;
+	gap: 0.5vmax;
 }
 
 #social i {
-	font-size: 2vw;
+	font-size: 2vmax;
 }
 
 #footer-right-bottom h6 {
-	font-size: 1.2vw;
+	font-size: 1.2vmax;
+}
+
+@media (max-width: 768px) {
+	main {
+		overflow-x: hidden;
+	}
+
+	nav {
+		height: 65px;
+		margin-top: 10px;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 5vmax;
+	}
+
+	nav h2 {
+		display: none;
+	}
+
+	nav .ri-menu-3-line {
+		display: block;
+		cursor: pointer;
+	}
+
+	#center {
+		height: calc(100% - (75px + 15vh));
+	}
+
+	#overlay {
+		bottom: 1%;
+		padding: 0 2vmax;
+	}
+
+	#overlay-top h1 {
+		font-size: 2vmax;
+	}
+
+	#overlay-circle {
+		height: 40px;
+		width: 40px;
+	}
+
+	#overlay-circle h4 {
+		font-size: 1.2vmax;
+	}
+
+	#overlay-bottom h4 {
+		font-size: 1.2vmax;
+	}
+
+	#scroll {
+		height: 15vh;
+	}
+
+	#scroll-container {
+		width: 135%;
+	}
+
+	#scroll #scroll-container:nth-last-child(1) {
+		margin-left: 3vw;
+	}
+
+	#model-profile img {
+		height: 6vmax;
+		width: 6vmax;
+	}
+
+	#alphabets {
+		height: 10%;
+	}
+
+	#alphabets h4 {
+		font-size: 1.2vmax;
+	}
+
+	#alphabets h5 {
+		font-size: 1vmax;
+	}
+
+	#alphabets h5:hover {
+		padding: 0.2rem 0.4rem;
+	}
+
+	#page1 {
+		margin-top: 0vmax;
+		padding-top: 3vmax;
+		height: 45%;
+	}
+
+	#page1-left {
+		width: 40%;
+		padding-right: 1vmax;
+	}
+
+	#page1-left img {
+		height: 80%;
+	}
+
+	#page1-left h1 {
+		font-size: 2vmax;
+	}
+
+	#page1-right {
+		height: 100%;
+		padding-left: 1vmax;
+		width: 60%;
+	}
+
+	#page1-right img {
+		height: 50%;
+		object-position: 20% 30%;
+	}
+
+	#page1-right-bottom {
+		gap: 1vmax;
+		padding-top: 1vmax;
+	}
+
+	#page1-right-bottom h4 {
+		font-size: 2.5vw;
+	}
+
+	#page1-right-bottom h5 {
+		font-size: 2.2vw;
+	}
+
+	#page2 {
+		margin-top: 0vmax;
+		height: 45%;
+		padding: 3vmax 5vmax;
+	}
+
+	#page2-left {
+		width: 30%;
+		padding: 0 2vmax 0 3vmax;
+	}
+
+	#page2-left img {
+		width: 100%;
+	}
+
+	#page2-left h4 {
+		font-size: 1.2vmax;
+	}
+
+	#page2-right {
+		width: 70%;
+	}
+
+	#page3 {
+		height: 50%;
+	}
+
+	#page4 {
+		height: 50%;
+		position: relative;
+	}
+
+	#page4 h1 {
+		font-family: 'Monument Extended Ultrabold';
+		font-size: 3vmax;
+		height: 10%;
+		margin-bottom: 2vmax;
+	}
+
+	.update {
+		height: 10vh;
+	}
+
+	#page5 {
+		height: 50%;
+	}
+
+	#page5-left {
+		height: 100%;
+		width: 45%;
+	}
+
+	#page5-right h2 {
+		font-size: 2vmax;
+	}
+
+	#page5-right h4 {
+		width: 70%;
+		font-size: 1vmax;
+	}
+
+	#page5-right p {
+		font-size: 0.8vmax;
+	}
+
+	#page5-right-bottom {
+		gap: 0.8vmax;
+	}
+
+	#scroll2 {
+		margin-top: 1vmax;
+	}
+
+	#scroll2 #scroll-container {
+		width: 125%;
+	}
+
+	.scroll-text {
+		font-size: 3vmax;
+	}
+
+	#page6 {
+		height: 40%;
+		justify-content: space-between;
+		position: relative;
+	}
+
+	#page6 h1 {
+		position: absolute;
+		top: 5%;
+		right: 50%;
+	}
+
+	.page6-card {
+		width: 48%;
+		height: 90%;
+		align-self: center;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.page6-card h4 {
+		font-size: 1vmax;
+		line-height: 1.7vmax;
+		margin-bottom: 2vmax;
+	}
+
+	.page6-card span {
+		padding: 0.3vmax 0.4vmax;
+	}
+
+	footer {
+		height: 10vmax;
+		margin: 10px 0;
+		padding: 1vmax 5vmax;
+		position: relative;
+	}
+
+	footer h2 {
+		display: none;
+	}
+
+	.footer-logo {
+		position: absolute;
+		top: 10%;
+		left: 10%;
+	}
+
+	#footer-right {
+		width: 60%;
+	}
+
+	#footer-right h3 {
+		display: none;
+	}
+
+	#footer-right-bottom {
+		height: 100%;
+		width: 50%;
+		align-items: end;
+		border-top: none;
+		position: absolute;
+		top: 5%;
+		right: 10%;
+	}
 }
